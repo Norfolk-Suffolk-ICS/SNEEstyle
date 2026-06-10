@@ -33,7 +33,7 @@ An R package containing useful functions for implementing SNEE style.
 -   You can install the R package directly from Github with:
 
 ``` r
-devtools::install_github('SNEE-ICS/SNEEstyle')
+devtools::install_github('Norfolk-Suffolk-ICS/SNEEstyle')
 ```
 
 -   Run `library(SNEEstyle)` to load the functions and make them available in your current R session.
