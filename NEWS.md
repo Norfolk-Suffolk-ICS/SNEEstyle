@@ -1,3 +1,12 @@
+# SNEEstyle 2.0.2
+
+* Add option to vary font size for SNEE_theme.
+* Justify text in html templates.
+
+# SNEEstyle 2.0.1
+
+* Add python package 
+
 # SNEEstyle 2.0.0
 
 * Includes final branding guidelines

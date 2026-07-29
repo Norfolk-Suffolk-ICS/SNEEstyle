@@ -1,6 +1,6 @@
 # SNEEstyle
 
-An R package containing useful functions for implementing SNEE style.
+An R and python package containing useful functions for implementing SNEE style.
 
 ## SNEE colours and palettes
 
@@ -30,13 +30,23 @@ An R package containing useful functions for implementing SNEE style.
 
 ## R Installation
 
--   You can install the R package directly from Github with:
+You can install the R package:
+
+- v2.0.2 directly from Gitea with:
 
 ``` r
-devtools::install_github('SNEE-ICS/SNEEstyle')
+remotes::install_git('https://git.apps.axym.co.uk/snee.SNEE_ICS/SNEEstyle', ref = 'v2.0.2', force = TRUE, build_vignettes = TRUE)
 ```
 
--   Run `library(SNEEstyle)` to load the functions and make them available in your current R session.
+-   the latest development version directly from Gitea with
+
+``` r
+remotes::install_git('https://git.apps.axym.co.uk/snee.SNEE_ICS/SNEEstyle', force = TRUE, build_vignettes = TRUE)
+```
+
+If you are prompted to update packages during the install process, choose "None" as this can stop the install.
+
+Run `library(SNEEstyle)` to load the functions and make them available in your current R session.
 
 ## Using SNEEstyle in R
 
@@ -91,3 +101,49 @@ libary(SNEEstyle)
 
 SNEE_quarto_setup(type = "presentation", format = "html", "outputs", "draft1")
 ```
+
+## **Python implementation** 
+
+SNEEstylepython is a python package for SNEEstyle [`matplotlib`](https://github.com/matplotlib/matplotlib).<br>
+Latest Version --> **0.1.5**
+
+## How do I install SNEEstylepython ?
+
+To install it, simply run:
+
+```bash
+pip install git+https://git.apps.axym.co.uk/snee.SNEE_ICS/SNEEstyle
+```
+
+## How do I use SNEEstylepython ?
+
+To use SNEEstylepython with Matplotlib, Seaborn and Plotly, you can do the following:<br>
+
+#### For Matplotlib and Seaborn plots
+
+```python
+from SNEEstylepython import mpl_style
+mpl_style()
+```
+
+#### For Plotly Interactive plots 
+
+```python
+from SNEEstylepython import plotly_style
+plotly_style()
+```
+
+## Example plots
+
+A detailed guide as to how to run or make edits to examples can be found [here](https://git.apps.axym.co.uk/snee.SNEE_ICS/SNEEstyle/src/branch/main/SNEEstylepython/examples/python_styling_guide.md)
+
+![alt text](SNEEstylepython/examples/sample_plots.png)
+
+Line plot --> Click [Here](SNEEstylepython/examples/0.plotly.html) to view the interactive plot
+<br>
+Scatter plot --> Click [Here](SNEEstylepython/examples/1.plotly.html) to view the interactive plot
+<br>
+Distribution plot --> Click [Here](SNEEstylepython/examples/2.plotly.html) to view the interactive plot
+
+
+All of `matplotlibrc`'s options can be found [here](https://matplotlib.org/tutorials/introductory/customizing.html#a-sample-matplotlibrc-file).
