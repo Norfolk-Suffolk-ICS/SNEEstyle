@@ -1,3 +1,7 @@
+# SNEEstyle 2.0.3
+
+* Remove python package
+
 # SNEEstyle 2.0.2
 
 * Add option to vary font size for SNEE_theme.
