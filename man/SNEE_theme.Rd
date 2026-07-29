@@ -4,10 +4,10 @@
 \alias{SNEE_theme}
 \title{Creates the SNEE Theme for ggplot}
 \usage{
-SNEE_theme()
+SNEE_theme(base_font_size = 11)
 }
 \arguments{
-\item{base_family}{The font to use in this theme}
+\item{base_font_size}{The base font size to use for the visual (default is 11) - this is the title size and other text is scaled relative to this.}
 }
 \description{
 Creates a base theme for ggplot objects. By default this uses a font that
