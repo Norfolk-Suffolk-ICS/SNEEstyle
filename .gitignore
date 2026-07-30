@@ -9,6 +9,7 @@
 
 # User-specific files
 .Ruserdata
+SNEEstyle.Rproj
 
 # Example code in package build process
 *-Ex.R
