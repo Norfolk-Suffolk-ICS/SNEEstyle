@@ -7,8 +7,16 @@ $presentation-heading-font: Arial, sans-serif !default;
 // headings
 $presentation-font-size-root: 40px !default;
 $presentation-heading-color: #064169 !default;
+$headings-color: #064169 !default;
+
+// body
+$body-color: #231F20 !default;
 
 /*-- scss:rules --*/
+
+.header-section-number {
+  color: #064169 !important;
+}
 
 .reveal .slide-logo {
   height: 60px !important;
@@ -36,4 +44,16 @@ $presentation-heading-color: #064169 !default;
 
 .divslide-h2-colour h2 {
   color: #064169 !important;
+}
+
+p {
+  text-align: justify;
+}
+
+.fig {
+  text-align: left !important;
+}
+
+h4 {
+  text-align: justify;
 }

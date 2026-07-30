@@ -72,6 +72,11 @@ SNEE_quarto_setup <- function(type = c("document", "presentation"),
                       paste0(out_dir, "/", file_name, ".qmd"))
       }
 
+      if (!fs::file_exists(paste0(out_dir, "/", "custom.scss"))) {
+        fs::file_copy(system.file("themes/custom.scss", package = "SNEEstyle"),
+                      out_dir)
+      }
+
     }
 
   } else {

@@ -9,6 +9,7 @@ format:
     theme: [default, custom.scss]
     slide-level: 3
     slide-number: true
+    html-table-processing: none
 engine: knitr
 smaller: true
 embed-resources: true
@@ -53,6 +54,6 @@ ggplot(mtcars, aes(x = mpg, y = cyl)) +
 The slide-level in the yaml is set to 3 which means that #, ## or ### indicate a new slide. However the text size for these headers can be larger than needed.
 Three hyphens can also be used to indicate a new slide and then you can have smaller sized text for the slide header.
 
-## {background-color="#C0CED8" background-image="SNEE_IF_background.png" background-position="left" background-size="contain"}
+## {.fig background-color="#C0CED8" background-image="SNEE_IF_background.png" background-position="left" background-size="contain"}
 
-![](SNEE_IF_logo.png){fig-align="right" width="600"}
+![](SNEE_IF_logo.png){.nostretch fig-align="right" width="600"}

@@ -30,13 +30,23 @@ An R package containing useful functions for implementing SNEE style.
 
 ## R Installation
 
--   You can install the R package directly from Github with:
+You can install the R package:
+
+- v2.0.3 directly from GitHub with:
 
 ``` r
-devtools::install_github('SNEE-ICS/SNEEstyle')
+devtools::install_github('Norfolk-Suffolk-ICS/SNEEstyle')', ref = 'v2.0.3', force = TRUE, build_vignettes = TRUE)
 ```
 
--   Run `library(SNEEstyle)` to load the functions and make them available in your current R session.
+-   the latest development version directly from GitHub with
+
+``` r
+devtools::install_github('Norfolk-Suffolk-ICS/SNEEstyle')', force = TRUE, build_vignettes = TRUE)
+```
+
+If you are prompted to update packages during the install process, choose "None" as this can stop the install.
+
+Run `library(SNEEstyle)` to load the functions and make them available in your current R session.
 
 ## Using SNEEstyle in R
 
